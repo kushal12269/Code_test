@@ -1,0 +1,276 @@
+<div class="general-tab">
+  <div class="row eachTemplate">
+    <div class="col templateLabel">Dual Gauge</div>
+    <div class="col templateContent">
+        <div class="row m-0">
+            <ng-container>
+              <div class="col-md-2">
+                <div class="mb-2 ml-1 input-label">show</div>
+                <div class="pretty p-switch p-fill">
+                  <input type="checkbox" id="dual_gauge" [checked]="chartConfig.dual_gauge" name="dual_gauge" [(ngModel)]="chartConfig.dual_gauge">
+                  <div class="state">
+                    <label></label>
+                  </div>
+                </div>
+              </div>
+            </ng-container>
+        </div>
+    </div>
+  </div>
+
+  <div class="row eachTemplate">
+    <div class="col templateLabel">Configuration</div>
+    <div class="col templateContent">
+      <div class="row m-0">
+        <div class="form-group col-md-2" *ngIf="!chartConfig.dual_gauge">
+          <label class="control-label"><span>Minimum value</span><span class="color-red">&nbsp;*</span></label>
+          <input type="number" class="form-control mb-2 mr-sm-2" placeholder="Minimum value" [(ngModel)]="chartOptions.minimumValue"
+            (ngModelChange)="emitChanges()">
+        </div>
+        <div class="form-group col-md-2" *ngIf="!chartConfig.dual_gauge">
+          <label class="control-label"><span>Maximum value</span><span class="color-red">&nbsp;*</span></label>
+          <input type="number" class="form-control mb-2 mr-sm-2" placeholder="Minimum value" [(ngModel)]="chartOptions.maximumValue"
+            (ngModelChange)="emitChanges()">
+        </div>
+        <div class="form-group col-md-2">
+            <div class="mb-2 ml-1 input-label">
+              <label class="control-label"><span>Dynamic Pointer Color</span></label>
+            </div>
+          <div class="pretty p-switch p-fill">
+            <input type="checkbox" id="header" [checked]="this.chartConfig.dynamicPointerColor" name="header"
+              [(ngModel)]="this.chartConfig.dynamicPointerColor">
+            <div class="state">
+              <label></label>
+            </div>
+          </div>
+        </div>
+        <div class="form-group col-md-2">
+            <div class="mb-2 ml-1 input-label">
+              <label class="control-label"><span>Dynamic Value Color</span></label>
+            </div>
+          <div class="pretty p-switch p-fill">
+            <input type="checkbox" id="header" [checked]="this.chartConfig.dynamicValueColor" name="header"
+              [(ngModel)]="this.chartConfig.dynamicValueColor">
+            <div class="state">
+              <label></label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+<ng-container *ngIf="chartConfig.dual_gauge">
+  <div class="row eachTemplate">
+    <div class="col templateLabel">Top Widget Configuration</div>
+    <div class="col templateContent">
+      <div class="row m-0">
+        <div class="form-group col-md-2">
+          <label class="control-label"><span>Minimum value</span><span class="color-red">&nbsp;*</span></label>
+          <input type="number" class="form-control mb-2 mr-sm-2" placeholder="Minimum value" [(ngModel)]="chartOptions.topMinimumValue"
+            (ngModelChange)="emitChanges()">
+        </div>
+      </div>
+      <div class="row m-0">
+        <div class="form-group col-md-2">
+          <label class="control-label"><span>Maximum value</span><span class="color-red">&nbsp;*</span></label>
+          <input type="number" class="form-control mb-2 mr-sm-2" placeholder="Minimum value" [(ngModel)]="chartOptions.topMaximumValue"
+            (ngModelChange)="emitChanges()">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row eachTemplate">
+    <div class="col templateLabel">Bottom Widget Configuration</div>
+    <div class="col templateContent">
+      <div class="row m-0">
+        <div class="form-group col-md-2">
+          <label class="control-label"><span>Minimum value</span><span class="color-red">&nbsp;*</span></label>
+          <input type="number" class="form-control mb-2 mr-sm-2" placeholder="Minimum value" [(ngModel)]="chartOptions.bottomMinimumValue"
+            (ngModelChange)="emitChanges()">
+        </div>
+      </div>
+      <div class="row m-0">
+        <div class="form-group col-md-2">
+          <label class="control-label"><span>Maximum value</span><span class="color-red">&nbsp;*</span></label>
+          <input type="number" class="form-control mb-2 mr-sm-2" placeholder="Minimum value" [(ngModel)]="chartOptions.bottomMaximumValue"
+            (ngModelChange)="emitChanges()">
+        </div>
+      </div>
+    </div>
+  </div>
+</ng-container>
+
+
+
+<div class="row eachTemplate">
+  <div class="col templateLabel">Placement</div>
+  <div class="col templateContent">
+    <div class="row m-0">
+
+      <div class="form-group col-md-4">
+        <label class="control-label"><span>Widget Position</span></label>
+        <ng-select bindValue="value" bindLabel="label" [items]="widgetPostion" [(ngModel)]="widgetInfo.widgetPostion"></ng-select>
+      </div>
+
+      <div class="form-group col-md-2" *ngIf="widgetInfo.widgetPostion === 'flexible'">
+        <label class="control-label"><span>Width (px)</span></label>
+        <input type="number" class="form-control mb-2 mr-sm-2" placeholder="Add Size"
+          [(ngModel)]="widgetInfo.w">
+      </div>
+
+      <div class="form-group col-md-2"  *ngIf="widgetInfo.widgetPostion !== 'flexible'">
+        <label class="control-label"><span>Width</span></label>
+        <ng-select bindValue="value" bindLabel="label" [items]="colWidth" [(ngModel)]="widgetInfo.w"></ng-select>
+      </div>
+      <div class="form-group col-md-2">
+        <label class="control-label"><span>Height</span></label>
+        <input type="number" class="form-control mb-2 mr-sm-2" placeholder="Add Size"
+          [(ngModel)]="widgetInfo.h">
+      </div>
+    </div>
+    </div>
+</div>
+
+
+  <div class="row eachTemplate">
+    <div class="col templateLabel">Widget Header</div>
+    <div class="col templateContent">
+      <div class="row m-0">
+          <div class="form-group col-md-2">
+              <div class="mb-2 ml-1 input-label">
+                <label class="control-label"><span>Hide header</span></label>
+              </div>
+            <div class="pretty p-switch p-fill">
+              <input type="checkbox" id="header" [checked]="this.chartConfig.hideHeader" name="header"
+                [(ngModel)]="this.chartConfig.hideHeader">
+              <div class="state">
+                <label></label>
+              </div>
+            </div>
+          </div>
+        <ng-container *ngIf="!chartConfig.hideHeader">
+          <ng-container>
+            <div class="form-group col-md-2">
+              <label class="control-label"><span>Font Size</span></label>
+              <input type="number" class="form-control mb-2 mr-sm-2" placeholder="Add Size"
+                [(ngModel)]="this.chartConfig.fontSize">
+            </div>
+          </ng-container>
+          <ng-container>
+            <div class="col-md-2">
+              <div class="mb-2 ml-1 input-label">
+                <label class="control-label"><span>Background Color</span></label>
+              </div>
+              <div>
+                <input type="color" id="favcolor" name="favcolor" value="#f2f2f2" [(ngModel)]="chartConfig.bgColor">
+              </div>
+            </div>
+          </ng-container>
+          <ng-container>
+            <div class="col-md-2">
+              <div class="mb-2 ml-1 input-label">
+                <label class="control-label"><span>Font Color</span></label>
+              </div>
+              <div>
+                <input type="color" id="favcolor" name="favcolor" value="#f2f2f2" [(ngModel)]="chartConfig.color">
+              </div>
+            </div>
+          </ng-container>
+          <ng-container >
+            <div class="col-md-2">
+              <div class="mb-2 ml-1 input-label">
+                <label class="control-label"><span>Label Position</span></label>
+              </div>
+              <div>
+                  <ng-select bindValue="value" bindLabel="label" [items]="labelPosition" [(ngModel)]="chartConfig.textAlign"></ng-select>
+              </div>
+            </div>
+          </ng-container>
+        </ng-container>
+        
+      </div>
+    </div>
+  </div>
+  <div class="row eachTemplate">
+    <div class="col templateLabel">Widget Padding</div>
+    <div class="col templateContent">
+      <div class="row m-0">
+        <ng-container>
+          <div class="form-group col-md-2">
+            <label class="control-label"><span>Top</span></label>
+            <input type="number" class="form-control mb-2 mr-sm-2" placeholder="Add top space"
+              [(ngModel)]="chartConfig.paddingTop">
+          </div>
+        </ng-container>
+      </div>
+    </div>
+  </div>
+  <div class="row eachTemplate">
+    <div class="col templateLabel">Custom Label</div>
+    <div class="col templateContent">
+      <div class="row m-0">
+        <ng-container *ngIf="!chartConfig.dual_gauge; else DualLabel">
+          <div class="form-group col-md-2">
+            <label class="control-label"><span>Label</span></label>
+            <input type="text" class="form-control mb-2 mr-sm-2" placeholder="Add custom label"
+              [(ngModel)]="chartConfig.customLabel" (ngModelChange)="emitChanges()">
+          </div>
+        </ng-container>
+        <ng-template #DualLabel>
+          <div class="form-group col-md-2">
+            <label class="control-label"><span>Top Label</span></label>
+            <input type="text" class="form-control mb-2 mr-sm-2" placeholder="Add custom label"
+              [(ngModel)]="chartConfig.customLabelTop" (ngModelChange)="emitChanges()">
+          </div>
+          <div class="form-group col-md-2">
+            <label class="control-label"><span>Bottom Label</span></label>
+            <input type="text" class="form-control mb-2 mr-sm-2" placeholder="Add custom label"
+              [(ngModel)]="chartConfig.customLabelBottom" (ngModelChange)="emitChanges()">
+          </div>
+        </ng-template>
+      </div>
+    </div>
+  </div>
+
+  <div class="row eachTemplate">
+    <div class="col templateLabel">Custom Tooltip</div>
+    <div class="col templateContent">
+      <div class="row m-0">
+        <div class="form-group col-md-2">
+          <div class="mb-2 ml-1 input-label">
+            Enable Custom Tooltip
+          </div>
+          <div class="pretty p-switch p-fill">
+          <input type="checkbox" id="customTooltip" [checked]="chartConfig.enableCustomTooltip" name="customTooltip"
+            [(ngModel)]="chartConfig.enableCustomTooltip">
+          <div class="state">
+            <label></label>
+          </div>
+          </div>
+        </div>
+        <ng-container *ngIf="!chartConfig.dual_gauge; else DualGaugeTooltipTemp"> 
+          <div class="form-group col-md-2" *ngIf="chartConfig.enableCustomTooltip">
+            <label class="control-label"><span>Custom Tooltip Label</span></label>
+            <input type="text" class="form-control mb-2 mr-sm-2" placeholder="Add Custom Tooltip Label"
+              [(ngModel)]="chartConfig.customTooltipLabel" (ngModelChange)="emitChanges()">
+          </div>
+        </ng-container>
+        <ng-template #DualGaugeTooltipTemp>
+          <ng-container *ngIf="chartConfig.enableCustomTooltip">
+            <div class="form-group col-md-2">
+              <label class="control-label"><span>Top Gauge Tooltip</span></label>
+              <input type="text" class="form-control mb-2 mr-sm-2" placeholder="Add Top Gauge Custom Tooltip Label"
+                [(ngModel)]="chartConfig.topGaugeCustomTooltipLabel" (ngModelChange)="emitChanges()">
+            </div>
+            <div class="form-group col-md-2">
+              <label class="control-label"><span>Bottom Gauge Tooltip</span></label>
+              <input type="text" class="form-control mb-2 mr-sm-2" placeholder="Add Bottom Gauge Custom Tooltip Label"
+                [(ngModel)]="chartConfig.bottomGaugeCustomTooltipLabel" (ngModelChange)="emitChanges()">
+            </div>
+          </ng-container>
+        </ng-template>
+      </div>
+    </div>
+  </div>
+</div>

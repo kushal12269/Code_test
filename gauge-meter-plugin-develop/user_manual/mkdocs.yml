@@ -1,0 +1,57 @@
+site_name: "User Guide"
+theme:
+  name: material
+  favicon: assets/logos/favicon.ico
+  nav_style: dark
+  navigation_depth: 4
+  collapse_navigation: True
+  font:
+    code: Roboto Mono
+    text: Roboto
+  logo: assets/logos/logo-full-4x.png
+  palette:
+    - scheme: default
+      primary: black
+      accent: indigo
+  features:
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - navigation.tracking
+    - navigation.top
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.instant
+    - toc.follow
+    - navigation.indexes
+
+extra:
+  consent:
+    title: Cookie consent
+    description: >-
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+copyright: This document is proprietary to UnifyTwin. No part of it shall be reproduced or transmitted in any form, by any means (electronic, photocopying, recording, or otherwise) without prior consent from UnifyTwin.<br>Copyright &copy 2022-<script>document.write(new Date().getFullYear())</script> UnifyTwin
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - md_in_html
+  - pymdownx.emoji:
+        emoji_index: !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tasklist:
+      custom_checkbox: true
+plugins:
+  - search

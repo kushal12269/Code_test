@@ -1,0 +1,28 @@
+.clear-icon {
+    position  : absolute;
+    margin-top: 4px;
+    color     : blueviolet;
+    top       : 0.5rem;
+    right     : 1rem;
+    cursor    : pointer;
+}
+
+.datePicker {
+    visibility: hidden;
+    height    : 0;
+    width     : 0;
+}
+
+.placeholder {
+    opacity: 0.7;
+}
+
+.form-control {
+    background-color: white;
+}
+
+.datePicker-hover:not(.disabled){
+    :hover{
+        text-decoration: underline !important;
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "plugin_name": "Widget Plugin Template",
+  "plugin_type": "widget",
+  "vcs-url": "",
+  "branch": "",
+  "frontend_base_image": "node:14.16.1",
+  "environment_variables": {
+  },
+  "version": "11.0"
+}

@@ -1,0 +1,29 @@
+<div class="form-control" (click)="showColorPicker($event)" style="background-color: white !important;">
+  <div class="color-div" [style.background-color]="selectedColor['value']"></div>
+  <span style="padding-left: 4px;">{{selectedColor['label']}}</span>
+</div>
+<div class="custom-dropdown-toggle border" *ngIf="showPicker" (click)="$event.stopPropagation();">
+  <table aria-hidden="true" class="table" style="position: relative;table-layout: fixed;">
+    <thead class="d-none"></thead>
+    <tbody>
+      <tr *ngFor='let eachRow of _colorsList'>
+        <td *ngFor='let eachColor of eachRow;let ind = index' [attr.colSpan]="eachColor.colSpan"
+          [attr.rowSpan]="eachColor.rowSpan" [style.background-color]="eachColor.value" title={{eachColor.label}}
+          class="color-cell" (click)="onColorSelect(eachColor)">
+          <span class="elm-checkmark" *ngIf="selectedColor['value'] === eachColor.value"
+            [ngStyle]="{'color' : ind < 5 ? 'white' : 'black'}"></span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="py-2">
+    <label for="">Color Picker</label>
+    <input type="color" class="form-control mb-2 mr-sm-2 w-100" placeholder="Value" [(ngModel)]="inputModel" style="visibility: visible !important;height:1px;"
+      (ngModelChange)="inputModelChange.emit(inputModel);selectedColor ={value:inputModel} ">
+  </div>
+  <div class="pl-2">
+    <div class="color-div" [style.background-color]="selectedColor['value']"></div>
+    <span style="padding-left: 4px;" *ngIf="selectedColor.value">{{selectedColor.label}}
+      ( {{selectedColor.value}} )</span>
+  </div>
+</div>

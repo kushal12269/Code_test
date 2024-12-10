@@ -1,0 +1,11 @@
+{
+    "selector": "app-simple-gauge-widget-template",
+    "settings": {
+        "config_tabs": {
+            "general": true,
+            "chartProp": true,
+            "data": true,
+            "aggregations": true
+        }
+    }
+}

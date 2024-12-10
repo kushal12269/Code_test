@@ -1,0 +1,15 @@
+<ng-container *ngIf="pageMode === 'display'">
+    <app-chart-display [widgetInfo]="widgetInfo" [base_proxy]="base_proxy" [filteredData]="filteredData">
+    </app-chart-display>
+</ng-container>
+<ng-container *ngIf="pageMode === 'config'">
+    <app-design-tab *ngIf="activetab === 'chartProp'" [widgetInfo]="widgetInfo" [base_proxy]="base_proxy"
+        (widgetInfoChange)="widgetInfoChange.emit(widgetInfo)">
+    </app-design-tab>
+    <app-data-tab *ngIf="activetab === 'filters'" [widgetInfo]="widgetInfo" [base_proxy]="base_proxy"
+        (widgetInfoChange)="widgetInfoChange.emit(widgetInfo)">
+    </app-data-tab>
+    <app-aggregation *ngIf="activetab === 'aggregations'" [widgetInfo]="widgetInfo" [base_proxy]="base_proxy"
+        (widgetInfoChange)="widgetInfoChange.emit(widgetInfo)">
+    </app-aggregation>
+</ng-container>

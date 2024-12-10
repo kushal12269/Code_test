@@ -1,0 +1,46 @@
+<ng-container *ngIf="inputModel">
+  <!-- <div class="custom-select-dropdown border rounded" (click)="showDropdownValues($event,p)" popoverClass="{{popoverClass}}" -->
+  <div class="time-picker" style="border-bottom: 1px solid;" (click)="showDropdownValues($event,p)" popoverClass="{{popoverClass}}"
+     [ngbPopover]="displayMode === 'popover' ? popContent : null" #p="ngbPopover"  [autoClose]="false" triggers="manual" placement="bottom"  container="body"
+      title="{{inputModel.timeRangeLabel}}">
+      <span id="select_time_range_in_modal" (click)="showDropdownValues($event,p)" [ngStyle]="{'font-size': (fontSize) + 'px'}">
+        {{ inputModel.timeRangeLabel ? inputModel.timeRangeLabel : 'Select...' }}</span>
+      <em class="fa ml-2 mt-1" style="float: right;" (click)="showDropdownValues($event,p)"
+        [ngClass]="{'fa-caret-up': showTimeRange, 'fa-caret-down': !showTimeRange}" aria-hidden="true"></em>
+    </div>
+    <ng-container *ngIf="displayMode !== 'popover'">
+      <ng-container *ngTemplateOutlet="popContent"></ng-container>
+    </ng-container>
+  </ng-container>
+  
+  
+  <ng-template #popContent>
+    <div class="custom-dropdown-toggle border" style="width: 330px !important;" (click)="$event.stopPropagation();"
+      *ngIf="timeRangeList && showTimeRange && timeRangeList.length>0">
+      <div class="col-12">
+        <!-- <div class="row">
+          <h6 class="col-12">Custom Range</h6>
+          <div class="col-md-5 form-group">
+            <label class="control-label">From</label>
+            <kl-date-picker [(value)]="inputModel['custom']['fromDisp']" [customOptions]="calendarSettings"></kl-date-picker>
+          </div>
+          <div class="col-md-5 form-group">
+            <label class="control-label">To</label>
+            <kl-date-picker [(value)]="inputModel['custom']['toDisp']" [customOptions]="calendarSettings"></kl-date-picker>
+          </div>
+          <div class="col-md-2 form-group">
+            <label class="control-label"></label>
+            <button type="button" (click)="applyCustomRange()" class="btn btn-sm btn-primary mt-4">Apply</button>
+          </div>
+        </div> -->
+        <div class="row mt-2">
+          <h6 class="col-12">Time Range</h6>
+          <div class="col-md-6" style="margin-bottom: 0px;" *ngFor="let section of timeRangeList">
+            <div *ngFor="let item of section.list">
+              <label class="value" id="{{'time_range_' + item.value}}" (click)="selectTimeRange(item)">{{ item.label }}</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </ng-template>

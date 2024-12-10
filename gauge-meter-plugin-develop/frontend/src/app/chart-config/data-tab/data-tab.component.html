@@ -1,0 +1,106 @@
+<!-- Dual Gauge -->
+
+
+<div class="general-tab pl-1">
+  <!-- Single Gauge -->
+  <ng-container *ngIf="!chartConfig.dual_gauge">
+    <ng-container *ngTemplateOutlet="gaugeConfigTemplate; context: { data: gaugeData[0], index: 0 }"></ng-container>
+  </ng-container>
+
+  <!-- Dual Gauge -->
+  <div class="tab-pane pl-1" *ngIf="chartConfig.dual_gauge">
+    <!-- Top Gauge Accordion -->
+    <div class="col-md-12 px-0" (click)="changeActiveTab('top')">
+      <h5 class="accordion-section">
+        <span class="{{activeTab === 'top' ? 'fa fa-caret-down' : 'fa fa-caret-right'}} mx-2"></span>
+        <span>Top Gauge</span>
+      </h5>
+    </div>
+    <div class="pl-3" *ngIf="activeTab === 'top'">
+      <ng-container *ngTemplateOutlet="gaugeConfigTemplate; context: { data: gaugeData[0], index: 0 }"></ng-container>
+    </div>
+  
+    <!-- Bottom Gauge Accordion -->
+    <div class="col-md-12 px-0" (click)="changeActiveTab('bottom')">
+      <h5 class="accordion-section">
+        <span class="{{activeTab === 'bottom' ? 'fa fa-caret-down' : 'fa fa-caret-right'}} mx-2"></span>
+        <span>Bottom Gauge</span>
+      </h5>
+    </div>
+    <div class="pl-3" *ngIf="activeTab === 'bottom'">
+      <ng-container *ngTemplateOutlet="gaugeConfigTemplate; context: { data: gaugeData[1], index: 1 }"></ng-container>
+    </div>
+  </div>
+</div>
+
+<!-- Gauge Configuration Template -->
+<ng-template #gaugeConfigTemplate let-data="data" let-index="index">
+  <div class="row eachTemplate">
+    <div class="col templateLabel">Parameter</div>
+    <div class="col templateContent">
+      <div class="col-md-5 form-group">
+        <label class="control-filter">Select Hierarchy</label>
+        <ng-select bindLabel="label" bindValue="value" [items]="hierarchyMeta"
+          placeholder="Search" [multiple]="false" [(ngModel)]="data.parameter.hierarchy"
+          (ngModelChange)="onSelectHierarchyChange(data)"></ng-select>
+      </div>
+      <div class="row col-md-12">
+        <div class="col-md-5 form-group">
+          <label class="control-filter">Tag<span class="color-red">&nbsp;*</span></label>
+          <ng-select bindLabel="label" bindValue="value" [items]="data.tagData"
+            placeholder="Select Tag" [multiple]="false" [(ngModel)]="data.parameter.tag"
+          ></ng-select>
+          <span class="color-red" *ngIf="validation[index]?.parameter">Please select a tag</span>
+        </div>
+        <div class="col-md-3 form-group unit-style">
+          <label class="control-filter">Unit</label>
+          <ng-select bindLabel="unit" bindValue="unit" [items]="unitData"
+            placeholder="Select Unit" [multiple]="false" [(ngModel)]="data.parameter.unit"
+          ></ng-select>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Gauge Sectors -->
+  <div class="row eachTemplate">
+    <div class="col templateLabel">Sector Setpoints
+      <!-- <span style="color: darkred; display: inline-block;">(Please add atleast 1 tag)</span> -->
+    </div>
+    <div class="col templateContent">
+      <div class="add-actionBtn" (click)="addGaugeSector(data)">
+        <span class="pl-5"><em class="elm-plus"></em></span> Add Sector
+      </div>
+      <div class="row mt-3" *ngFor="let eachSector of data.sectors; let i=index">
+        <div class="col-md-2 pl-4 form-group custom-color-input">
+          <label class="control-label d-block mb-2">Color</label>
+          <label for="{{'sectorColors_' + i}}" class="label-for-color"
+            [style.background-color]="eachSector.color"></label>
+          <input type="color" [id]="'sectorColors_' + i" placeholder="Color" [(ngModel)]="eachSector.color">
+        </div>
+        <div class="col-md-5 form-group">
+          <!-- hide last tag dropdown -->
+          <ng-container *ngIf="i+1 !== data.sectors.length; else  maxTag">
+            <label class="control-filter">Tag<span class="color-red">&nbsp;*</span></label>
+            <ng-select bindLabel="label" bindValue="value" [items]="data.tagData"
+              placeholder="Select Tag" [multiple]="false" [(ngModel)]="eachSector.tag"
+            ></ng-select>
+            <span class="color-red" *ngIf="validation[index]?.sectors[i]">Please select a tag</span>
+          </ng-container>
+          <ng-template #maxTag>
+            <label class="control-filter">Maximum value</label>
+            <!-- <div class="mt-4">{{chartOptions.maximumValue}}</div> -->
+            <div class="mt-1">
+              <input type="text" [value]="chartOptions.maximumValue" disabled>
+          </div>
+          </ng-template>
+        </div>
+        
+        <div class="form-group col-md-1">
+          <div class="mt-1 actionBtn" (click)="deleteGaugeSector(data, i)" [class.disabled]="data.sectors.length === 2"><span class="elm-trash"></span>Delete</div>
+        </div>
+      </div>
+      <span class="color-red" *ngIf="data.sectors.length === 2">Minimum 2 sectors are required</span>
+    </div>
+  </div>
+</ng-template>

@@ -1,0 +1,43 @@
+<div class="date-container" (click)="openDatePicker()" #dateContainer>
+    <ng-container *ngIf="selectedValue?.value === 'custom'; else timeRangeSelection">
+        <span class="date">{{scheduling.start_time}} - {{scheduling.end_time}}</span>
+    </ng-container>
+    <ng-template #timeRangeSelection>
+        <span class="date">{{selectedValue?.label}}</span>
+    </ng-template>
+    <em class="fa fa-sort-desc" aria-hidden="true"></em>
+</div>
+
+<div class="picker-container" id="pickerContainer" #pickerContainer>
+    <div class="picker-wrapper">
+        <div class="picker-header">
+            <ng-select class="custom-selector" bindLabel="label" name="Dtype" 
+                [items]="customSelectionOptions" appendTo="body"
+                placeholder="Select" [(ngModel)]="selectedValue" (ngModelChange)="applyTimeFilters(); calculateDatePickerPosition($event);" [clearable]="false">
+            </ng-select>
+        </div>
+        <div class="picker-calendar" *ngIf="selectedValue?.value === 'custom'">
+            <ng-container *ngIf="!invalidDate">
+                <div class="heading-banner">Start Date</div>
+                <div class="heading-banner">End Date</div>
+            </ng-container>
+            <div *ngIf="invalidDate" class="col-span-2 invalid-date">End date is earlier than start date</div>
+            <ngb-datepicker class="date-picker" #dp1 [(ngModel)]="startDate"
+                (ngModelChange)="compareStartEndTime()" (navigate)="date = $event.next">
+            </ngb-datepicker>
+            <ngb-datepicker class="date-picker" #dp2 [(ngModel)]="endDate"
+                (ngModelChange)="compareStartEndTime()" (navigate)="date = $event.next">
+            </ngb-datepicker>
+            <ngb-timepicker [(ngModel)]="startTime"></ngb-timepicker>
+            <ngb-timepicker [(ngModel)]="endTime"></ngb-timepicker>
+        </div>
+        <div class="footer-buttons">
+            <button *ngIf="defaultValue.isCustom || selectedValue.value === 'custom'" class="btn" (click)="openDatePicker();">Cancel</button>
+            <button *ngIf="defaultValue.isCustom || selectedValue.value === 'custom'" class="btn btn-primary" (click)="applyDateFilter()"
+             [disabled]="selectedValue?.value === 'custom' && invalidDate">
+             Apply
+            </button>
+        </div>
+    </div>
+</div>
+

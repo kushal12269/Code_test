@@ -1,0 +1,105 @@
+<ng-container *ngIf="!loader; else emsLoader">
+    <ng-container *ngIf="isDataAvailable; else noData">
+        <ng-container *ngIf="!chartConfig?.dual_gauge; else dual">
+            <!-- Gauge -->
+            <div #outerContainer [ngClass]="chartConfig?.hideHeader ? 'EcontainerRemove' : 'Econtainer'">
+                <div class="single-gauge-container" [ngClass]="chartConfig?.customLabel ? '' : 'no-label'">
+                    <div #chartContainer class="single-gauge-chart"></div>
+                    <div class="tooltip-container" popoverClass="popOverEms" 
+                        triggers="mouseenter:mouseleave" placement="bottom" container="body"
+                    ></div>
+                </div>
+            </div>
+            <!-- Custom label -->
+            <ng-container *ngIf="chartConfig?.customLabel">
+                <div class="text-center">
+                    <h5>{{chartConfig.customLabel}}</h5>
+                </div>
+            </ng-container>
+        </ng-container>
+    
+        <!-- Dual Gauge start -->
+        <ng-template #dual>
+            <div #outerContainer  [ngClass]="chartConfig?.hideHeader ? 'EcontainerRemove dual' : 'Econtainer dual'">
+                <!-- Top Gauge -->
+                <div class="dual-gauge-container" style="border-bottom: 1px solid;">
+                    <div #chartContainerTop class="dual-gauge-chart"></div>
+                    <div class="tooltip-container" popoverClass="popOverEms"
+                        triggers="mouseenter:mouseleave" placement="right" container="body"
+                    ></div>
+                    <!-- Custom label top -->
+                    <h6 *ngIf="chartConfig?.customLabelTop">{{chartConfig.customLabelTop}}</h6>
+                </div>
+
+                <!-- Bottom Gauge -->
+                <div class="dual-gauge-container">
+                    <div #chartContainerBottom class="dual-gauge-chart"></div>
+                    <div class="tooltip-container" popoverClass="popOverEms" 
+                        triggers="mouseenter:mouseleave" placement="right" container="body"
+                    ></div>
+                  
+                    <!-- Custom label bottom -->
+                    <h6 *ngIf="chartConfig?.customLabelBottom">{{chartConfig.customLabelBottom}}</h6>
+                </div>
+            </div>
+        </ng-template>
+        <!-- Dual Gauge End  -->
+    </ng-container>
+</ng-container>
+
+<ng-template #emsLoader>
+  <div class="loader-wrapper-submaincontent" style="top: 23% !important; left: 42% !important;">
+    <div class="lds-ring">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+  </div> 
+</ng-template>
+<ng-template #noData>
+    <div class="Econtainer">
+        <div class="no-data">
+            <h6 style="opacity: 70%;">No Data Available...</h6>
+        </div>
+    </div>
+</ng-template>
+
+<ng-template #topPopContent>
+  <div class="col-12">
+      <div class="row">
+          <h6 class="col-12" style="padding-left: 0px;">{{chartConfig.enableCustomTooltip ? chartConfig?.topGaugeCustomTooltipLabel : topCalculatedValue}}</h6>
+      </div>
+      <!-- <ng-container *ngFor="let site of hierarchy_labels.data">
+          <div class="row">
+              <h6 class="col-12">&#9642; {{site}}</h6>
+          </div>
+      </ng-container> -->
+  </div>
+</ng-template>
+  
+<ng-template #bottomPopContent>
+    <div class="col-12">
+        <div class="row">
+            <h6 class="col-12" style="padding-left: 0px;">{{chartConfig.enableCustomTooltip ? chartConfig?.bottomGaugeCustomTooltipLabel : bottomCalculatedValue}}</h6>
+        </div>
+        <!-- <ng-container *ngFor="let site of hierarchy_labels.data">
+            <div class="row">
+                <h6 class="col-12">&#9642; {{site}}</h6>
+            </div>
+        </ng-container> -->
+    </div>
+</ng-template>
+
+<ng-template #popContentEms>
+    <div class="col-12">
+        <div class="row">
+            <h6 class="col-12" style="padding-left: 0px;">{{chartConfig.enableCustomTooltip ? chartConfig?.customTooltipLabel : simpleCalculatedValue}}</h6>
+        </div>
+        <!-- <ng-container *ngFor="let site of hierarchy_labels.data">
+            <div class="row">
+                <h6 class="col-12">&#9642; {{site}}</h6>
+            </div>
+        </ng-container> -->
+    </div>
+</ng-template>

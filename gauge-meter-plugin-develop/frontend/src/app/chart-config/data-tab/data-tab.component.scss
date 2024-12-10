@@ -1,0 +1,43 @@
+p {
+  font-family: Lato;
+}
+
+.general-tab {
+  .eachTemplate {
+    padding: 0 !important;
+    margin: 0 -15px !important;
+
+    .col.templateLabel,
+    .col.templateContent {
+      flex-basis: 100% !important;
+      max-width: 100% !important;
+    }
+
+    .col.templateContent {
+        padding: 0px 200px;
+    }
+  }
+  .add-actionBtn{
+    position: absolute;
+    top: -20px;
+    right: 40%;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .actionBtn{
+    position: absolute;
+    top: 20px;
+    right: 50%;
+    display: flex;
+    width: 55px;
+  }
+}
+
+.control-label {
+  // padding: 10px 10px 10px 0px
+}
+
+.unit-style {
+  // pointer-events: none;
+  // cursor: not-allowed;
+}

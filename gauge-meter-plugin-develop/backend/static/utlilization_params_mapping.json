@@ -1,0 +1,3180 @@
+{
+	"parameters": {
+		"Dryer": [
+			{
+				"availability": {
+					"param_name": "Dryer_Evap_Rate Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_110$tag_553"
+				},
+				"utilization": {
+					"param_name": "Dryer_Evap_Rate Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_110$tag_1343"
+				},
+				"APCUptime": {
+					"param_name": "Dryer_Evap_Rate_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_110$tag_567"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Dryer_Fan_Power Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_110$tag_555"
+				},
+				"utilization": {
+					"param_name": "Dryer_Fan_Power Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_110$tag_1345"
+				},
+				"APCUptime": {
+					"param_name": "Dryer_Fan_Power_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_110$tag_569"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Fan_Speed_Exh_1 Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_110$tag_546"
+				},
+				"utilization": {
+					"param_name": "Fan_Speed_Exh_1 Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_110$tag_1336"
+				},
+				"APCUptime": {
+					"param_name": "Fan_Speed_Exh_1_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_110$tag_560"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Fan_Speed_Exh_2 Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_110$tag_548"
+				},
+				"utilization": {
+					"param_name": "Fan_Speed_Exh_2 Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_110$tag_1338"
+				},
+				"APCUptime": {
+					"param_name": "Fan_Speed_Exh_2_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_110$tag_562"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Fan_Speed_Exh_3 Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_110$tag_550"
+				},
+				"utilization": {
+					"param_name": "Fan_Speed_Exh_3 Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_110$tag_1340"
+				},
+				"APCUptime": {
+					"param_name": "Fan_Speed_Exh_3_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_110$tag_564"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Fan_Speed_Exh_4 Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_110$tag_552"
+				},
+				"utilization": {
+					"param_name": "Fan_Speed_Exh_4 Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_110$tag_1342"
+				},
+				"APCUptime": {
+					"param_name": "Fan_Speed_Exh_4_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_110$tag_566"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "RH_Exh_1 Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_110$tag_554"
+				},
+				"utilization": {
+					"param_name": "RH_Exh_1 Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_110$tag_1344"
+				},
+				"APCUptime": {
+					"param_name": "RH_Exh_1_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_110$tag_568"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "RH_Exh_2 Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_110$tag_556"
+				},
+				"utilization": {
+					"param_name": "RH_Exh_2 Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_110$tag_1346"
+				},
+				"APCUptime": {
+					"param_name": "RH_Exh_2_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_110$tag_570"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "RH_Exh_3 Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_110$tag_557"
+				},
+				"utilization": {
+					"param_name": "RH_Exh_3 Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_110$tag_1347"
+				},
+				"APCUptime": {
+					"param_name": "RH_Exh_3_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_110$tag_571"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "RH_Exh_4 Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_110$tag_558"
+				},
+				"utilization": {
+					"param_name": "RH_Exh_4 Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_110$tag_1348"
+				},
+				"APCUptime": {
+					"param_name": "RH_Exh_4_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_110$tag_572"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Steam_Valve_1 Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_110$tag_545"
+				},
+				"utilization": {
+					"param_name": "Steam_Valve_1 Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_110$tag_1335"
+				},
+				"APCUptime": {
+					"param_name": "Steam_Valve_1_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_110$tag_559"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Steam_Valve_2 Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_110$tag_547"
+				},
+				"utilization": {
+					"param_name": "Steam_Valve_2 Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_110$tag_1337"
+				},
+				"APCUptime": {
+					"param_name": "Steam_Valve_2_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_110$tag_561"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Steam_Valve_3 Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_110$tag_549"
+				},
+				"utilization": {
+					"param_name": "Steam_Valve_3 Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_110$tag_1339"
+				},
+				"APCUptime": {
+					"param_name": "Steam_Valve_3_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_110$tag_563"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Steam_Valve_4 Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_110$tag_551"
+				},
+				"utilization": {
+					"param_name": "Steam_Valve_4 Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_110$tag_1341"
+				},
+				"APCUptime": {
+					"param_name": "Steam_Valve_4_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_110$tag_565"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Dryer_A_Residence_Time Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_388"
+				},
+				"utilization": {
+					"param_name": "Dryer_A_Residence_Time Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_408"
+				},
+				"APCUptime": {
+					"param_name": "Dryer_A_Residence_Time_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_1477"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Dryer_B_Residence_Time Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_389"
+				},
+				"utilization": {
+					"param_name": "Dryer_B_Residence_Time Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_409"
+				},
+				"APCUptime": {
+					"param_name": "Dryer_B_Residence_Time_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_1478"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Dryer_Zone_1_Temperature Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_390"
+				},
+				"utilization": {
+					"param_name": "Dryer_Zone_1_Temperature Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_410"
+				},
+				"APCUptime": {
+					"param_name": "Dryer_Zone_1_Temperature_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_1479"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Dryer_Zone_2_Temperature Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_391"
+				},
+				"utilization": {
+					"param_name": "Dryer_Zone_2_Temperature Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_411"
+				},
+				"APCUptime": {
+					"param_name": "Dryer_Zone_2_Temperature_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_1480"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Dryer_Zone_3_Temperature Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_392"
+				},
+				"utilization": {
+					"param_name": "Dryer_Zone_3_Temperature Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_412"
+				},
+				"APCUptime": {
+					"param_name": "Dryer_Zone_3_Temperature_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_1481"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Dryer_Zone_4_Temperature Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_393"
+				},
+				"utilization": {
+					"param_name": "Dryer_Zone_4_Temperature Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_413"
+				},
+				"APCUptime": {
+					"param_name": "Dryer_Zone_4_Temperature_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_1482"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Dryer_A_Exhaust_Fan Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_394"
+				},
+				"utilization": {
+					"param_name": "Dryer_A_Exhaust_Fan Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_414"
+				},
+				"APCUptime": {
+					"param_name": "Dryer_A_Exhaust_Fan_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_1483"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Dryer_B_Exhaust_Fan Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_395"
+				},
+				"utilization": {
+					"param_name": "Dryer_B_Exhaust_Fan Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_415"
+				},
+				"APCUptime": {
+					"param_name": "Dryer_B_Exhaust_Fan_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_1484"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Product_Bed_Height Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_396"
+				},
+				"utilization": {
+					"param_name": "Product_Bed_Height Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_416"
+				},
+				"APCUptime": {
+					"param_name": "Product_Bed_Height_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_1485"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Dryer_Res_Time_Ratio Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_397"
+				},
+				"utilization": {
+					"param_name": "Dryer_Res_Time_Ratio Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_417"
+				},
+				"APCUptime": {
+					"param_name": "Dryer_Res_Time_Ratio_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_1486"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Evaporation_Rate Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_398"
+				},
+				"utilization": {
+					"param_name": "Evaporation_Rate Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_418"
+				},
+				"APCUptime": {
+					"param_name": "Evaporation_Rate_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_1487"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Dryer_A_Exhaust_Relative_Humidity Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_399"
+				},
+				"utilization": {
+					"param_name": "Dryer_A_Exhaust_Relative_Humidity Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_419"
+				},
+				"APCUptime": {
+					"param_name": "Dryer_A_Exhaust_Relative_Humidity_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_1488"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Dryer_Valve_Position_Zone_1 Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_400"
+				},
+				"utilization": {
+					"param_name": "Dryer_Valve_Position_Zone_1 Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_420"
+				},
+				"APCUptime": {
+					"param_name": "Dryer_Valve_Position_Zone_1_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_1489"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Dryer_A_Temp_Bias Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_401"
+				},
+				"utilization": {
+					"param_name": "Dryer_A_Temp_Bias Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_421"
+				},
+				"APCUptime": {
+					"param_name": "Dryer_A_Temp_Bias_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_1490"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Dryer_Valve_Position_Zone_2 Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_402"
+				},
+				"utilization": {
+					"param_name": "Dryer_Valve_Position_Zone_2 Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_422"
+				},
+				"APCUptime": {
+					"param_name": "Dryer_Valve_Position_Zone_2_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_1491"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Dryer_B_Exhaust_Relative_Humidity Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_403"
+				},
+				"utilization": {
+					"param_name": "Dryer_B_Exhaust_Relative_Humidity Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_423"
+				},
+				"APCUptime": {
+					"param_name": "Dryer_B_Exhaust_Relative_Humidity_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_1492"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Dryer_Valve_Position_Zone_3 Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_404"
+				},
+				"utilization": {
+					"param_name": "Dryer_Valve_Position_Zone_3 Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_424"
+				},
+				"APCUptime": {
+					"param_name": "Dryer_Valve_Position_Zone_3_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_1493"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Dryer_B_Temp_Bias Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_405"
+				},
+				"utilization": {
+					"param_name": "Dryer_B_Temp_Bias Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_425"
+				},
+				"APCUptime": {
+					"param_name": "Dryer_B_Temp_Bias_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_1494"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Dryer_Valve_Position_Zone_4 Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_406"
+				},
+				"utilization": {
+					"param_name": "Dryer_Valve_Position_Zone_4 Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_426"
+				},
+				"APCUptime": {
+					"param_name": "Dryer_Valve_Position_Zone_4_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_1495"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Dryer_Total_Fan_Spd Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_407"
+				},
+				"utilization": {
+					"param_name": "Dryer_Total_Fan_Spd Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_427"
+				},
+				"APCUptime": {
+					"param_name": "Dryer_Total_Fan_Spd_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_111$tag_1496"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "DryerA2Temp Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_112$tag_101"
+				},
+				"utilization": {
+					"param_name": "DryerA2Temp Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_112$tag_2342"
+				},
+				"APCUptime": {
+					"param_name": "DryerA2Temp_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_112$tag_1854"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "DryerB1Temp Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_112$tag_102"
+				},
+				"utilization": {
+					"param_name": "DryerB1Temp Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_112$tag_115"
+				},
+				"APCUptime": {
+					"param_name": "DryerB1Temp_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_112$tag_1855"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "DryerB2Temp Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_112$tag_103"
+				},
+				"utilization": {
+					"param_name": "DryerB2Temp Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_112$tag_116"
+				},
+				"APCUptime": {
+					"param_name": "DryerB2Temp_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_112$tag_1856"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "DryerAResTime Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_112$tag_104"
+				},
+				"utilization": {
+					"param_name": "DryerAResTime Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_112$tag_117"
+				},
+				"APCUptime": {
+					"param_name": "DryerAResTime_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_112$tag_1857"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "DryerBResTime Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_112$tag_105"
+				},
+				"utilization": {
+					"param_name": "DryerBResTime Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_112$tag_118"
+				},
+				"APCUptime": {
+					"param_name": "DryerBResTime_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_112$tag_1858"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Dryer_Evap_Rate Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_112$tag_553"
+				},
+				"utilization": {
+					"param_name": "Dryer_Evap_Rate Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_112$tag_1343"
+				},
+				"APCUptime": {
+					"param_name": "Dryer_Evap_Rate_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_112$tag_567"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "DryerA2_ExRH Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_112$tag_106"
+				},
+				"utilization": {
+					"param_name": "DryerA2_ExRH Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_112$tag_119"
+				},
+				"APCUptime": {
+					"param_name": "DryerA2_ExRH_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_112$tag_1859"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "DryerA2TempValve Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_112$tag_107"
+				},
+				"utilization": {
+					"param_name": "DryerA2TempValve Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_112$tag_120"
+				},
+				"APCUptime": {
+					"param_name": "DryerA2TempValve_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_112$tag_1860"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "DryerB1_ExRH Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_112$tag_108"
+				},
+				"utilization": {
+					"param_name": "DryerB1_ExRH Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_112$tag_121"
+				},
+				"APCUptime": {
+					"param_name": "DryerB1_ExRH_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_112$tag_1861"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "DryerB1TempValve Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_112$tag_109"
+				},
+				"utilization": {
+					"param_name": "DryerB1TempValve Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_112$tag_122"
+				},
+				"APCUptime": {
+					"param_name": "DryerB1TempValve_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_112$tag_1862"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "DryerB2_ExRH Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_112$tag_110"
+				},
+				"utilization": {
+					"param_name": "DryerB2_ExRH Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_112$tag_123"
+				},
+				"APCUptime": {
+					"param_name": "DryerB2_ExRH_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_112$tag_1863"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "DryerB2TempValve Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_112$tag_111"
+				},
+				"utilization": {
+					"param_name": "DryerB2TempValve Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_112$tag_124"
+				},
+				"APCUptime": {
+					"param_name": "DryerB2TempValve_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_112$tag_1864"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "DryerBedHt Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_112$tag_112"
+				},
+				"utilization": {
+					"param_name": "DryerBedHt Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_112$tag_125"
+				},
+				"APCUptime": {
+					"param_name": "DryerBedHt_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_112$tag_1865"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Dryer_B_A_RT_Ratio Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_112$tag_113"
+				},
+				"utilization": {
+					"param_name": "Dryer_B_A_RT_Ratio Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_112$tag_126"
+				},
+				"APCUptime": {
+					"param_name": "Dryer_B_A_RT_Ratio_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_112$tag_1866"
+				}
+			}
+		],
+		"Freezer": [
+			{
+				"availability": {
+					"param_name": "CompCapacity Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_109$tag_614"
+				},
+				"utilization": {
+					"param_name": "CompCapacity Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_109$tag_1361"
+				},
+				"APCUptime": {
+					"param_name": "CompCapacity_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_109$tag_630"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "CompSucPress Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_109$tag_602"
+				},
+				"utilization": {
+					"param_name": "CompSucPress Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_109$tag_1349"
+				},
+				"APCUptime": {
+					"param_name": "CompSucPress_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_109$tag_618"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "CoProdTemp Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_109$tag_613"
+				},
+				"utilization": {
+					"param_name": "CoProdTemp Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_109$tag_1360"
+				},
+				"APCUptime": {
+					"param_name": "CoProdTemp_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_109$tag_629"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "FreezerBedHt Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_109$tag_617"
+				},
+				"utilization": {
+					"param_name": "FreezerBedHt Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_109$tag_1364"
+				},
+				"APCUptime": {
+					"param_name": "FreezerBedHt_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_109$tag_633"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "FreezerExitTemp Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_109$tag_615"
+				},
+				"utilization": {
+					"param_name": "FreezerExitTemp Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_109$tag_1362"
+				},
+				"APCUptime": {
+					"param_name": "FreezerExitTemp_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_109$tag_631"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "FreezerFans1 Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_109$tag_605"
+				},
+				"utilization": {
+					"param_name": "FreezerFans1 Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_109$tag_1352"
+				},
+				"APCUptime": {
+					"param_name": "FreezerFans1_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_109$tag_621"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "FreezerFans2 Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_109$tag_606"
+				},
+				"utilization": {
+					"param_name": "FreezerFans2 Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_109$tag_1353"
+				},
+				"APCUptime": {
+					"param_name": "FreezerFans2_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_109$tag_622"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "FreezerFans3 Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_109$tag_607"
+				},
+				"utilization": {
+					"param_name": "FreezerFans3 Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_109$tag_1354"
+				},
+				"APCUptime": {
+					"param_name": "FreezerFans3_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_109$tag_623"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "FreezerFans4 Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_109$tag_608"
+				},
+				"utilization": {
+					"param_name": "FreezerFans4 Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_109$tag_1355"
+				},
+				"APCUptime": {
+					"param_name": "FreezerFans4_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_109$tag_624"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "FreezerFans5 Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_109$tag_609"
+				},
+				"utilization": {
+					"param_name": "FreezerFans5 Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_109$tag_1356"
+				},
+				"APCUptime": {
+					"param_name": "FreezerFans5_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_109$tag_625"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "FreezerFans6 Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_109$tag_610"
+				},
+				"utilization": {
+					"param_name": "FreezerFans6 Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_109$tag_1357"
+				},
+				"APCUptime": {
+					"param_name": "FreezerFans6_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_109$tag_626"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "FreezerFans7 Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_109$tag_611"
+				},
+				"utilization": {
+					"param_name": "FreezerFans7 Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_109$tag_1358"
+				},
+				"APCUptime": {
+					"param_name": "FreezerFans7_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_109$tag_627"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "FreezerProdTemp Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_109$tag_612"
+				},
+				"utilization": {
+					"param_name": "FreezerProdTemp Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_109$tag_1359"
+				},
+				"APCUptime": {
+					"param_name": "FreezerProdTemp_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_109$tag_628"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "FreezerResT Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_109$tag_604"
+				},
+				"utilization": {
+					"param_name": "FreezerResT Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_109$tag_1351"
+				},
+				"APCUptime": {
+					"param_name": "FreezerResT_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_109$tag_620"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "PrecoolBedHt Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_109$tag_616"
+				},
+				"utilization": {
+					"param_name": "PrecoolBedHt Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_109$tag_1363"
+				},
+				"APCUptime": {
+					"param_name": "PrecoolBedHt_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_109$tag_632"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "PrecoolResT Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_109$tag_603"
+				},
+				"utilization": {
+					"param_name": "PrecoolResT Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_109$tag_1350"
+				},
+				"APCUptime": {
+					"param_name": "PrecoolResT_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_109$tag_619"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Freezer_Suction_Pressure Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_114$tag_448"
+				},
+				"utilization": {
+					"param_name": "Freezer_Suction_Pressure Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_114$tag_455"
+				},
+				"APCUptime": {
+					"param_name": "Freezer_Suction_Pressure_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_114$tag_1497"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Precool_Residence_Time Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_114$tag_449"
+				},
+				"utilization": {
+					"param_name": "Precool_Residence_Time Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_114$tag_456"
+				},
+				"APCUptime": {
+					"param_name": "Precool_Residence_Time_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_114$tag_1498"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Freezer_Residence_Time Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_114$tag_450"
+				},
+				"utilization": {
+					"param_name": "Freezer_Residence_Time Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_114$tag_457"
+				},
+				"APCUptime": {
+					"param_name": "Freezer_Residence_Time_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_114$tag_1499"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Freezer_Exit_Temperature Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_114$tag_451"
+				},
+				"utilization": {
+					"param_name": "Freezer_Exit_Temperature Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_114$tag_458"
+				},
+				"APCUptime": {
+					"param_name": "Freezer_Exit_Temperature_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_114$tag_1500"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Precool_Bed_Height Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_114$tag_452"
+				},
+				"utilization": {
+					"param_name": "Precool_Bed_Height Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_114$tag_459"
+				},
+				"APCUptime": {
+					"param_name": "Precool_Bed_Height_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_114$tag_1501"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Freezer_Bed_Height Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_114$tag_453"
+				},
+				"utilization": {
+					"param_name": "Freezer_Bed_Height Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_114$tag_460"
+				},
+				"APCUptime": {
+					"param_name": "Freezer_Bed_Height_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_114$tag_1502"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Freezer_Comp_Capacity Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_114$tag_454"
+				},
+				"utilization": {
+					"param_name": "Freezer_Comp_Capacity Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_114$tag_461"
+				},
+				"APCUptime": {
+					"param_name": "Freezer_Comp_Capacity_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_114$tag_1503"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "PreCool_CompSucPress Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_124$tag_142"
+				},
+				"utilization": {
+					"param_name": "PreCool_CompSucPress Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_124$tag_2353"
+				},
+				"APCUptime": {
+					"param_name": "PreCool_CompSucPress_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_124$tag_148"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Freezer_CompSucPress Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_124$tag_143"
+				},
+				"utilization": {
+					"param_name": "Freezer_CompSucPress Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_124$tag_149"
+				},
+				"APCUptime": {
+					"param_name": "Freezer_CompSucPress_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_124$tag_1948"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "PreCoolResT Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_124$tag_603"
+				},
+				"utilization": {
+					"param_name": "PreCoolResT Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_124$tag_1350"
+				},
+				"APCUptime": {
+					"param_name": "PreCoolResT_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_124$tag_1949"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "FreezerResT Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_124$tag_604"
+				},
+				"utilization": {
+					"param_name": "FreezerResT Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_124$tag_1351"
+				},
+				"APCUptime": {
+					"param_name": "FreezerResT_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_124$tag_620"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "PreCool_ProdTemp Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_124$tag_144"
+				},
+				"utilization": {
+					"param_name": "PreCool_ProdTemp Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_124$tag_150"
+				},
+				"APCUptime": {
+					"param_name": "PreCool_ProdTemp_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_124$tag_1950"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Freezer_ProdTemp Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_124$tag_145"
+				},
+				"utilization": {
+					"param_name": "Freezer_ProdTemp Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_124$tag_151"
+				},
+				"APCUptime": {
+					"param_name": "Freezer_ProdTemp_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_124$tag_1951"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "PreCoolBedHt Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_124$tag_616"
+				},
+				"utilization": {
+					"param_name": "PreCoolBedHt Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_124$tag_1363"
+				},
+				"APCUptime": {
+					"param_name": "PreCoolBedHt_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_124$tag_1952"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "FreezerBedHt Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_124$tag_617"
+				},
+				"utilization": {
+					"param_name": "FreezerBedHt Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_124$tag_1364"
+				},
+				"APCUptime": {
+					"param_name": "FreezerBedHt_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_124$tag_633"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Freezer_CompCapacity Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_124$tag_146"
+				},
+				"utilization": {
+					"param_name": "Freezer_CompCapacity Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_124$tag_152"
+				},
+				"APCUptime": {
+					"param_name": "Freezer_CompCapacity_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_124$tag_2650"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "CondenserPress Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_124$tag_147"
+				},
+				"utilization": {
+					"param_name": "CondenserPress Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_124$tag_153"
+				},
+				"APCUptime": {
+					"param_name": "CondenserPress_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_124$tag_2394"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "NH3CompSucPress Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_121$tag_322"
+				},
+				"utilization": {
+					"param_name": "NH3CompSucPress Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_121$tag_325"
+				},
+				"APCUptime": {
+					"param_name": "NH3CompSucPress_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_121$tag_2562"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "FreezerAirTemp Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_121$tag_323"
+				},
+				"utilization": {
+					"param_name": "FreezerAirTemp Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_121$tag_326"
+				},
+				"APCUptime": {
+					"param_name": "FreezerAirTemp_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_121$tag_2563"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "SurgeBinTemp Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_121$tag_324"
+				},
+				"utilization": {
+					"param_name": "SurgeBinTemp Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_121$tag_327"
+				},
+				"APCUptime": {
+					"param_name": "SurgeBinTemp_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_121$tag_2564"
+				}
+			}
+		],
+		"Fryer": [
+			{
+				"availability": {
+					"param_name": "Fryer_A_DeltaT Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_677"
+				},
+				"utilization": {
+					"param_name": "Fryer_A_DeltaT Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_1378"
+				},
+				"APCUptime": {
+					"param_name": "Fryer_A_DeltaT_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_698"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Fryer_A_ResTime_Ratio Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_680"
+				},
+				"utilization": {
+					"param_name": "Fryer_A_ResTime_Ratio Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_1381"
+				},
+				"APCUptime": {
+					"param_name": "Fryer_A_ResTime_Ratio_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_701"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Fryer_A1_ResTime Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_666"
+				},
+				"utilization": {
+					"param_name": "Fryer_A1_ResTime Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_1367"
+				},
+				"APCUptime": {
+					"param_name": "Fryer_A1_ResTime_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_687"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Fryer_A1_Temp Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_662"
+				},
+				"utilization": {
+					"param_name": "Fryer_A1_Temp Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_1308"
+				},
+				"APCUptime": {
+					"param_name": "Fryer_A1_Temp_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_683"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Fryer_A1_Temp_Drop Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_673"
+				},
+				"utilization": {
+					"param_name": "Fryer_A1_Temp_Drop Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_1374"
+				},
+				"APCUptime": {
+					"param_name": "Fryer_A1_Temp_Drop_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_694"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Fryer_A2_ResTime Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_667"
+				},
+				"utilization": {
+					"param_name": "Fryer_A2_ResTime Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_1368"
+				},
+				"APCUptime": {
+					"param_name": "Fryer_A2_ResTime_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_688"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Fryer_A2_Temp Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_663"
+				},
+				"utilization": {
+					"param_name": "Fryer_A2_Temp Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_1309"
+				},
+				"APCUptime": {
+					"param_name": "Fryer_A2_Temp_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_684"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Fryer_A2_Temp_Drop Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_674"
+				},
+				"utilization": {
+					"param_name": "Fryer_A2_Temp_Drop Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_1375"
+				},
+				"APCUptime": {
+					"param_name": "Fryer_A2_Temp_Drop_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_695"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Fryer_A2B2_ResTime_Bias Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_681"
+				},
+				"utilization": {
+					"param_name": "Fryer_A2B2_ResTime_Bias Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_1382"
+				},
+				"APCUptime": {
+					"param_name": "Fryer_A2B2_ResTime_Bias_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_702"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Fryer_A2B2_Temp_Bias Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_678"
+				},
+				"utilization": {
+					"param_name": "Fryer_A2B2_Temp_Bias Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_1379"
+				},
+				"APCUptime": {
+					"param_name": "Fryer_A2B2_Temp_Bias_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_699"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Fryer_B_DeltaT Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_679"
+				},
+				"utilization": {
+					"param_name": "Fryer_B_DeltaT Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_1380"
+				},
+				"APCUptime": {
+					"param_name": "Fryer_B_DeltaT_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_700"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Fryer_B_ResTime_Ratio Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_682"
+				},
+				"utilization": {
+					"param_name": "Fryer_B_ResTime_Ratio Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_1383"
+				},
+				"APCUptime": {
+					"param_name": "Fryer_B_ResTime_Ratio_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_703"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Fryer_B1_ResTime Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_668"
+				},
+				"utilization": {
+					"param_name": "Fryer_B1_ResTime Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_1369"
+				},
+				"APCUptime": {
+					"param_name": "Fryer_B1_ResTime_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_689"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Fryer_B1_Temp Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_664"
+				},
+				"utilization": {
+					"param_name": "Fryer_B1_Temp Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_1365"
+				},
+				"APCUptime": {
+					"param_name": "Fryer_B1_Temp_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_685"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Fryer_B1_Temp_Drop Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_675"
+				},
+				"utilization": {
+					"param_name": "Fryer_B1_Temp_Drop Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_1376"
+				},
+				"APCUptime": {
+					"param_name": "Fryer_B1_Temp_Drop_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_696"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Fryer_B2_ResTime Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_669"
+				},
+				"utilization": {
+					"param_name": "Fryer_B2_ResTime Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_1370"
+				},
+				"APCUptime": {
+					"param_name": "Fryer_B2_ResTime_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_690"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Fryer_B2_Temp Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_665"
+				},
+				"utilization": {
+					"param_name": "Fryer_B2_Temp Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_1366"
+				},
+				"APCUptime": {
+					"param_name": "Fryer_B2_Temp_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_686"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Fryer_B2_Temp_Drop Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_676"
+				},
+				"utilization": {
+					"param_name": "Fryer_B2_Temp_Drop Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_1377"
+				},
+				"APCUptime": {
+					"param_name": "Fryer_B2_Temp_Drop_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_697"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Prod_Solids Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_670"
+				},
+				"utilization": {
+					"param_name": "Prod_Solids Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_1371"
+				},
+				"APCUptime": {
+					"param_name": "Prod_Solids_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_691"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Prod_Texture Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_671"
+				},
+				"utilization": {
+					"param_name": "Prod_Texture Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_1372"
+				},
+				"APCUptime": {
+					"param_name": "Prod_Texture_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_692"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Prod_Texture_BK Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_672"
+				},
+				"utilization": {
+					"param_name": "Prod_Texture_BK Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_1373"
+				},
+				"APCUptime": {
+					"param_name": "Prod_Texture_BK_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_117$tag_693"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Dryer_Evaporation_Rate Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_113$tag_475"
+				},
+				"utilization": {
+					"param_name": "Dryer_Evaporation_Rate Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_113$tag_485"
+				},
+				"APCUptime": {
+					"param_name": "Dryer_Evaporation_Rate_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_113$tag_1504"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Fryer_Temperature_A Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_113$tag_476"
+				},
+				"utilization": {
+					"param_name": "Fryer_Temperature_A Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_113$tag_486"
+				},
+				"APCUptime": {
+					"param_name": "Fryer_Temperature_A_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_113$tag_1505"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Fryer_Temperature_B Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_113$tag_477"
+				},
+				"utilization": {
+					"param_name": "Fryer_Temperature_B Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_113$tag_487"
+				},
+				"APCUptime": {
+					"param_name": "Fryer_Temperature_B_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_113$tag_1506"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Fryer_Residence_Time_A Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_113$tag_478"
+				},
+				"utilization": {
+					"param_name": "Fryer_Residence_Time_A Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_113$tag_488"
+				},
+				"APCUptime": {
+					"param_name": "Fryer_Residence_Time_A_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_113$tag_1507"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Fryer_Residence_Time_B Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_113$tag_479"
+				},
+				"utilization": {
+					"param_name": "Fryer_Residence_Time_B Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_113$tag_489"
+				},
+				"APCUptime": {
+					"param_name": "Fryer_Residence_Time_B_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_113$tag_1508"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Product_Solids Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_113$tag_480"
+				},
+				"utilization": {
+					"param_name": "Product_Solids Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_113$tag_490"
+				},
+				"APCUptime": {
+					"param_name": "Product_Solids_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_113$tag_1509"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Fryer_Steam_Valve_A Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_113$tag_481"
+				},
+				"utilization": {
+					"param_name": "Fryer_Steam_Valve_A Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_113$tag_491"
+				},
+				"APCUptime": {
+					"param_name": "Fryer_Steam_Valve_A_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_113$tag_1510"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Fryer_Steam_Valve_B Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_113$tag_482"
+				},
+				"utilization": {
+					"param_name": "Fryer_Steam_Valve_B Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_113$tag_492"
+				},
+				"APCUptime": {
+					"param_name": "Fryer_Steam_Valve_B_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_113$tag_1511"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Fryer_Temperature_Bias Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_113$tag_483"
+				},
+				"utilization": {
+					"param_name": "Fryer_Temperature_Bias Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_113$tag_493"
+				},
+				"APCUptime": {
+					"param_name": "Fryer_Temperature_Bias_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_113$tag_1512"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Fryer_Residence_Time_Bias Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_113$tag_484"
+				},
+				"utilization": {
+					"param_name": "Fryer_Residence_Time_Bias Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_113$tag_494"
+				},
+				"APCUptime": {
+					"param_name": "Fryer_Residence_Time_Bias_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_113$tag_1513"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Dryer_Evap_Rate Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_553"
+				},
+				"utilization": {
+					"param_name": "Dryer_Evap_Rate Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_1343"
+				},
+				"APCUptime": {
+					"param_name": "Dryer_Evap_Rate_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_567"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "FryerA1_Temp Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_166"
+				},
+				"utilization": {
+					"param_name": "FryerA1_Temp Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_2475"
+				},
+				"APCUptime": {
+					"param_name": "FryerA1_Temp_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_2039"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "FryerA2_Temp Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_167"
+				},
+				"utilization": {
+					"param_name": "FryerA2_Temp Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_2476"
+				},
+				"APCUptime": {
+					"param_name": "FryerA2_Temp_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_2040"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "FryerB1_Temp Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_168"
+				},
+				"utilization": {
+					"param_name": "FryerB1_Temp Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_2477"
+				},
+				"APCUptime": {
+					"param_name": "FryerB1_Temp_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_2041"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "FryerB2_Temp Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_169"
+				},
+				"utilization": {
+					"param_name": "FryerB2_Temp Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_2478"
+				},
+				"APCUptime": {
+					"param_name": "FryerB2_Temp_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_2042"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "FryerA1_ResT Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_170"
+				},
+				"utilization": {
+					"param_name": "FryerA1_ResT Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_2479"
+				},
+				"APCUptime": {
+					"param_name": "FryerA1_ResT_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_2043"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "FryerA2_ResT Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_171"
+				},
+				"utilization": {
+					"param_name": "FryerA2_ResT Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_2480"
+				},
+				"APCUptime": {
+					"param_name": "FryerA2_ResT_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_2044"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "FryerB1_ResT Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_172"
+				},
+				"utilization": {
+					"param_name": "FryerB1_ResT Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_2481"
+				},
+				"APCUptime": {
+					"param_name": "FryerB1_ResT_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_2045"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "FryerB2_ResT Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_173"
+				},
+				"utilization": {
+					"param_name": "FryerB2_ResT Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_2482"
+				},
+				"APCUptime": {
+					"param_name": "FryerB2_ResT_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_2046"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Prod_Solids Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_670"
+				},
+				"utilization": {
+					"param_name": "Prod_Solids Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_1371"
+				},
+				"APCUptime": {
+					"param_name": "Prod_Solids_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_691"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Prod_Texture Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_671"
+				},
+				"utilization": {
+					"param_name": "Prod_Texture Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_1372"
+				},
+				"APCUptime": {
+					"param_name": "Prod_Texture_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_692"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "FryerA1_Steam_Valve Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_174"
+				},
+				"utilization": {
+					"param_name": "FryerA1_Steam_Valve Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_2483"
+				},
+				"APCUptime": {
+					"param_name": "FryerA1_Steam_Valve_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_2047"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "FryerA2_Steam_Valve Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_175"
+				},
+				"utilization": {
+					"param_name": "FryerA2_Steam_Valve Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_2484"
+				},
+				"APCUptime": {
+					"param_name": "FryerA2_Steam_Valve_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_2048"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "FryerB1_Steam_Valve Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_176"
+				},
+				"utilization": {
+					"param_name": "FryerB1_Steam_Valve Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_2485"
+				},
+				"APCUptime": {
+					"param_name": "FryerB1_Steam_Valve_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_2049"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "FryerB2_Steam_Valve Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_177"
+				},
+				"utilization": {
+					"param_name": "FryerB2_Steam_Valve Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_2486"
+				},
+				"APCUptime": {
+					"param_name": "FryerB2_Steam_Valve_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_2050"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "FryerA_Temp_Bias Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_178"
+				},
+				"utilization": {
+					"param_name": "FryerA_Temp_Bias Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_2487"
+				},
+				"APCUptime": {
+					"param_name": "FryerA_Temp_Bias_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_2051"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "FryerB_Temp_Bias Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_179"
+				},
+				"utilization": {
+					"param_name": "FryerB_Temp_Bias Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_2488"
+				},
+				"APCUptime": {
+					"param_name": "FryerB_Temp_Bias_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_2052"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "FryerA_ResT_Bias Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_180"
+				},
+				"utilization": {
+					"param_name": "FryerA_ResT_Bias Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_2489"
+				},
+				"APCUptime": {
+					"param_name": "FryerA_ResT_Bias_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_2053"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "FryerB_ResT_Bias Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_181"
+				},
+				"utilization": {
+					"param_name": "FryerB_ResT_Bias Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_2490"
+				},
+				"APCUptime": {
+					"param_name": "FryerB_ResT_Bias_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_126$tag_2054"
+				}
+			}
+		],
+		"LineRate": [
+			{
+				"availability": {
+					"param_name": "Prod_Rate_CV Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_120$tag_818"
+				},
+				"utilization": {
+					"param_name": "Prod_Rate_CV Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_120$tag_1334"
+				},
+				"APCUptime": {
+					"param_name": "Prod_Rate_CV_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_120$tag_820"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Line_Rate_CV Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_119$tag_543"
+				},
+				"utilization": {
+					"param_name": "Line_Rate_CV Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_119$tag_541"
+				},
+				"APCUptime": {
+					"param_name": "Line_Rate_CV_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_119$tag_1523"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Line_Rate_CV Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_125$tag_543"
+				},
+				"utilization": {
+					"param_name": "Line_Rate_CV Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_125$tag_541"
+				},
+				"APCUptime": {
+					"param_name": "Line_Rate_CV_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_125$tag_1523"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "FormerSpeed Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_122$tag_331"
+				},
+				"utilization": {
+					"param_name": "FormerSpeed Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_122$tag_339"
+				},
+				"APCUptime": {
+					"param_name": "FormerSpeed_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_122$tag_2565"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "EvenflowSpeed Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_122$tag_332"
+				},
+				"utilization": {
+					"param_name": "EvenflowSpeed Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_122$tag_340"
+				},
+				"APCUptime": {
+					"param_name": "EvenflowSpeed_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_122$tag_2566"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Shredder1AugerSpeed Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_122$tag_333"
+				},
+				"utilization": {
+					"param_name": "Shredder1AugerSpeed Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_122$tag_341"
+				},
+				"APCUptime": {
+					"param_name": "Shredder1AugerSpeed_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_122$tag_2567"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "FormerSpeed_CV Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_122$tag_334"
+				},
+				"utilization": {
+					"param_name": "FormerSpeed_CV Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_122$tag_343"
+				},
+				"APCUptime": {
+					"param_name": "FormerSpeed_CV_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_122$tag_2569"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "FormerFeedLevel Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_122$tag_335"
+				},
+				"utilization": {
+					"param_name": "FormerFeedLevel Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_122$tag_344"
+				},
+				"APCUptime": {
+					"param_name": "FormerFeedLevel_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_122$tag_2570"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "ShredderOverflow Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_122$tag_336"
+				},
+				"utilization": {
+					"param_name": "ShredderOverflow Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_122$tag_345"
+				},
+				"APCUptime": {
+					"param_name": "ShredderOverflow_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_122$tag_2571"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Shredder1Amps Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_122$tag_337"
+				},
+				"utilization": {
+					"param_name": "Shredder1Amps Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_122$tag_346"
+				},
+				"APCUptime": {
+					"param_name": "Shredder1Amps_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_122$tag_2572"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Shredder2Amps Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_122$tag_338"
+				},
+				"utilization": {
+					"param_name": "Shredder2Amps Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_122$tag_347"
+				},
+				"APCUptime": {
+					"param_name": "Shredder2Amps_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_122$tag_2573"
+				}
+			}
+		],
+		"Quality": [
+			{
+				"availability": {
+					"param_name": "Blancher_ResTime Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_733"
+				},
+				"utilization": {
+					"param_name": "Blancher_ResTime Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_1307"
+				},
+				"APCUptime": {
+					"param_name": "Blancher_ResTime APC Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_760"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Blancher_Temp Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_732"
+				},
+				"utilization": {
+					"param_name": "Blancher_Temp Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_1306"
+				},
+				"APCUptime": {
+					"param_name": "Blancher_Temp APC Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_759"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Blancher_Turb_1 Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_755"
+				},
+				"utilization": {
+					"param_name": "Blancher_Turb_1 Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_1332"
+				},
+				"APCUptime": {
+					"param_name": "Blancher_Turb_1_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_782"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Blancher_Turb_2 Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_756"
+				},
+				"utilization": {
+					"param_name": "Blancher_Turb_2 Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_1333"
+				},
+				"APCUptime": {
+					"param_name": "Blancher_Turb_2_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_783"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Blancher_Water_1 Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_738"
+				},
+				"utilization": {
+					"param_name": "Blancher_Water_1 Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_1315"
+				},
+				"APCUptime": {
+					"param_name": "Blancher_Water_1 APC Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_765"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Blancher_Water_2 Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_739"
+				},
+				"utilization": {
+					"param_name": "Blancher_Water_2 Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_1316"
+				},
+				"APCUptime": {
+					"param_name": "Blancher_Water_2 APC Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_766"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Optisorter_Activity Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_740"
+				},
+				"utilization": {
+					"param_name": "Optisorter_Activity Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_1317"
+				},
+				"APCUptime": {
+					"param_name": "Optisorter_Activity APC Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_767"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Peel_Grid Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_751"
+				},
+				"utilization": {
+					"param_name": "Peel_Grid Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_1328"
+				},
+				"APCUptime": {
+					"param_name": "Peel_Grid APC Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_778"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Peel_Time_1 Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_730"
+				},
+				"utilization": {
+					"param_name": "Peel_Time_1 Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_1304"
+				},
+				"APCUptime": {
+					"param_name": "Peel_Time_1 APC Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_757"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Peel_Time_2 Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_731"
+				},
+				"utilization": {
+					"param_name": "Peel_Time_2 Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_1305"
+				},
+				"APCUptime": {
+					"param_name": "Peel_Time_2 APC Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_758"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Peel_Time_Bias Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_752"
+				},
+				"utilization": {
+					"param_name": "Peel_Time_Bias Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_1329"
+				},
+				"APCUptime": {
+					"param_name": "Peel_Time_Bias APC Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_779"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Preheater_Turb_1 Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_753"
+				},
+				"utilization": {
+					"param_name": "Preheater_Turb_1 Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_1330"
+				},
+				"APCUptime": {
+					"param_name": "Preheater_Turb_1_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_780"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Preheater_Turb_2 Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_754"
+				},
+				"utilization": {
+					"param_name": "Preheater_Turb_2 Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_1331"
+				},
+				"APCUptime": {
+					"param_name": "Preheater_Turb_2_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_781"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Preheater_Water_1 Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_736"
+				},
+				"utilization": {
+					"param_name": "Preheater_Water_1 Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_1313"
+				},
+				"APCUptime": {
+					"param_name": "Preheater_Water_1 APC Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_763"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Preheater_Water_2 Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_737"
+				},
+				"utilization": {
+					"param_name": "Preheater_Water_2 Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_1314"
+				},
+				"APCUptime": {
+					"param_name": "Preheater_Water_2 APC Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_764"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Prod_Color Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_746"
+				},
+				"utilization": {
+					"param_name": "Prod_Color Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_1323"
+				},
+				"APCUptime": {
+					"param_name": "Prod_Color APC Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_773"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Prod_ColorVar Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_748"
+				},
+				"utilization": {
+					"param_name": "Prod_ColorVar Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_1325"
+				},
+				"APCUptime": {
+					"param_name": "Prod_ColorVar APC Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_775"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Prod_ColorVar_SE Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_749"
+				},
+				"utilization": {
+					"param_name": "Prod_ColorVar_SE Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_1326"
+				},
+				"APCUptime": {
+					"param_name": "Prod_ColorVar_SE APC Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_776"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Prod_ColorVar_ST Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_750"
+				},
+				"utilization": {
+					"param_name": "Prod_ColorVar_ST Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_1327"
+				},
+				"APCUptime": {
+					"param_name": "Prod_ColorVar_ST APC Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_777"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Prod_Critical_Defects Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_743"
+				},
+				"utilization": {
+					"param_name": "Prod_Critical_Defects Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_1320"
+				},
+				"APCUptime": {
+					"param_name": "Prod_Critical_Defects APC Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_770"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Prod_Major_Defects Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_744"
+				},
+				"utilization": {
+					"param_name": "Prod_Major_Defects Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_1321"
+				},
+				"APCUptime": {
+					"param_name": "Prod_Major_Defects APC Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_771"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Prod_Minor_Defects Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_745"
+				},
+				"utilization": {
+					"param_name": "Prod_Minor_Defects Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_1322"
+				},
+				"APCUptime": {
+					"param_name": "Prod_Minor_Defects APC Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_772"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Prod_Salt Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_747"
+				},
+				"utilization": {
+					"param_name": "Prod_Salt Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_1324"
+				},
+				"APCUptime": {
+					"param_name": "Prod_Salt APC Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_774"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Prod_Total_Defects Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_742"
+				},
+				"utilization": {
+					"param_name": "Prod_Total_Defects Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_1319"
+				},
+				"APCUptime": {
+					"param_name": "Prod_Total_Defects APC Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_769"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Salt_Flow Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_735"
+				},
+				"utilization": {
+					"param_name": "Salt_Flow Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_1312"
+				},
+				"APCUptime": {
+					"param_name": "Salt_Flow APC Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_762"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Sugar_Flow Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_734"
+				},
+				"utilization": {
+					"param_name": "Sugar_Flow Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_1311"
+				},
+				"APCUptime": {
+					"param_name": "Sugar_Flow APC Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_761"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Yield Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_741"
+				},
+				"utilization": {
+					"param_name": "Yield Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_1318"
+				},
+				"APCUptime": {
+					"param_name": "Yield APC Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_107$a_118$tag_768"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Sorter_STG_Total_Defects Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_115$tag_508"
+				},
+				"utilization": {
+					"param_name": "Sorter_STG_Total_Defects Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_115$tag_517"
+				},
+				"APCUptime": {
+					"param_name": "Sorter_STG_Total_Defects_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_115$tag_1514"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Sorter_STG_Major_Defects Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_115$tag_509"
+				},
+				"utilization": {
+					"param_name": "Sorter_STG_Major_Defects Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_115$tag_518"
+				},
+				"APCUptime": {
+					"param_name": "Sorter_STG_Major_Defects_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_115$tag_1515"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Dextrose_Rate Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_115$tag_510"
+				},
+				"utilization": {
+					"param_name": "Dextrose_Rate Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_115$tag_519"
+				},
+				"APCUptime": {
+					"param_name": "Dextrose_Rate_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_115$tag_1516"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Brine_Flow Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_115$tag_511"
+				},
+				"utilization": {
+					"param_name": "Brine_Flow Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_115$tag_520"
+				},
+				"APCUptime": {
+					"param_name": "Brine_Flow_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_115$tag_1517"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Major_Defects Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_115$tag_512"
+				},
+				"utilization": {
+					"param_name": "Major_Defects Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_115$tag_521"
+				},
+				"APCUptime": {
+					"param_name": "Major_Defects_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_115$tag_1518"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Total_Defects Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_115$tag_513"
+				},
+				"utilization": {
+					"param_name": "Total_Defects Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_115$tag_522"
+				},
+				"APCUptime": {
+					"param_name": "Total_Defects_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_115$tag_1519"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "ADR_Load Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_115$tag_514"
+				},
+				"utilization": {
+					"param_name": "ADR_Load Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_115$tag_523"
+				},
+				"APCUptime": {
+					"param_name": "ADR_Load_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_115$tag_1520"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Product_Color Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_115$tag_515"
+				},
+				"utilization": {
+					"param_name": "Product_Color Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_115$tag_524"
+				},
+				"APCUptime": {
+					"param_name": "Product_Color_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_115$tag_1521"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Product_Salt_Content Availability",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_115$tag_516"
+				},
+				"utilization": {
+					"param_name": "Product_Salt_Content Utilization",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_115$tag_525"
+				},
+				"APCUptime": {
+					"param_name": "Product_Salt_Content_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_106$l4_108$a_115$tag_1522"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Peeler1_Steam_Time Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_217"
+				},
+				"utilization": {
+					"param_name": "Peeler1_Steam_Time Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_239"
+				},
+				"APCUptime": {
+					"param_name": "Peeler1_Steam_Time_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_2143"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Peeler2_Steam_Time Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_218"
+				},
+				"utilization": {
+					"param_name": "Peeler2_Steam_Time Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_240"
+				},
+				"APCUptime": {
+					"param_name": "Peeler2_Steam_Time_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_2144"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Scanner_%Peel Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_219"
+				},
+				"utilization": {
+					"param_name": "Scanner_%Peel Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_241"
+				},
+				"APCUptime": {
+					"param_name": "Scanner_%Peel_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_2145"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Sorter_Brown_Size Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_220"
+				},
+				"utilization": {
+					"param_name": "Sorter_Brown_Size Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_242"
+				},
+				"APCUptime": {
+					"param_name": "Sorter_Brown_Size_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_2146"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Sorter_Black_Size Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_221"
+				},
+				"utilization": {
+					"param_name": "Sorter_Black_Size Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_243"
+				},
+				"APCUptime": {
+					"param_name": "Sorter_Black_Size_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_2147"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Blancher_Zn1_Temp Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_222"
+				},
+				"utilization": {
+					"param_name": "Blancher_Zn1_Temp Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_244"
+				},
+				"APCUptime": {
+					"param_name": "Blancher_Zn1_Temp_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_2148"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Blancher_Zn2_Temp Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_223"
+				},
+				"utilization": {
+					"param_name": "Blancher_Zn2_Temp Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_245"
+				},
+				"APCUptime": {
+					"param_name": "Blancher_Zn2_Temp_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_2149"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "BlancherResT Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_224"
+				},
+				"utilization": {
+					"param_name": "BlancherResT Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_246"
+				},
+				"APCUptime": {
+					"param_name": "BlancherResT_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_2150"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Sugar_Flow Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_734"
+				},
+				"utilization": {
+					"param_name": "Sugar_Flow Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_1311"
+				},
+				"APCUptime": {
+					"param_name": "Sugar_Flow_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_2151"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Blend_SE Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_225"
+				},
+				"utilization": {
+					"param_name": "Blend_SE Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_247"
+				},
+				"APCUptime": {
+					"param_name": "Blend_SE_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_2152"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Blend_Total_Def Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_226"
+				},
+				"utilization": {
+					"param_name": "Blend_Total_Def Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_248"
+				},
+				"APCUptime": {
+					"param_name": "Blend_Total_Def_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_2153"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Mixer1_Pct_Dry Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_227"
+				},
+				"utilization": {
+					"param_name": "Mixer1_Pct_Dry Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_249"
+				},
+				"APCUptime": {
+					"param_name": "Mixer1_Pct_Dry_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_2154"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Mixer2_Pct_Dry Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_228"
+				},
+				"utilization": {
+					"param_name": "Mixer2_Pct_Dry Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_250"
+				},
+				"APCUptime": {
+					"param_name": "Mixer2_Pct_Dry_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_2155"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "BatterRes1Cond Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_229"
+				},
+				"utilization": {
+					"param_name": "BatterRes1Cond Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_251"
+				},
+				"APCUptime": {
+					"param_name": "BatterRes1Cond_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_2156"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "BatterRes2Cond Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_230"
+				},
+				"utilization": {
+					"param_name": "BatterRes2Cond Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_252"
+				},
+				"APCUptime": {
+					"param_name": "BatterRes2Cond_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_2157"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "_Peel Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_231"
+				},
+				"utilization": {
+					"param_name": "_Peel Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_253"
+				},
+				"APCUptime": {
+					"param_name": "_Peel_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_2158"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Prod_Critical_Defects Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_743"
+				},
+				"utilization": {
+					"param_name": "Prod_Critical_Defects Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_1320"
+				},
+				"APCUptime": {
+					"param_name": "Prod_Critical_Defects_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_2159"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Prod_Major_Defects Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_744"
+				},
+				"utilization": {
+					"param_name": "Prod_Major_Defects Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_1321"
+				},
+				"APCUptime": {
+					"param_name": "Prod_Major_Defects_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_2160"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Prod_Total_Defects Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_742"
+				},
+				"utilization": {
+					"param_name": "Prod_Total_Defects Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_1319"
+				},
+				"APCUptime": {
+					"param_name": "Prod_Total_Defects_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_2161"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "ADR_Load Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_514"
+				},
+				"utilization": {
+					"param_name": "ADR_Load Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_523"
+				},
+				"APCUptime": {
+					"param_name": "ADR_Load_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_1520"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Prod_Color Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_746"
+				},
+				"utilization": {
+					"param_name": "Prod_Color Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_1323"
+				},
+				"APCUptime": {
+					"param_name": "Prod_Color_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_2162"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Prod_Color_Var Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_232"
+				},
+				"utilization": {
+					"param_name": "Prod_Color_Var Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_254"
+				},
+				"APCUptime": {
+					"param_name": "Prod_Color_Var_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_2163"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Peeler_StmT_Bias Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_233"
+				},
+				"utilization": {
+					"param_name": "Peeler_StmT_Bias Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_255"
+				},
+				"APCUptime": {
+					"param_name": "Peeler_StmT_Bias_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_2164"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Prod_Color_VarSE Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_234"
+				},
+				"utilization": {
+					"param_name": "Prod_Color_VarSE Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_256"
+				},
+				"APCUptime": {
+					"param_name": "Prod_Color_VarSE_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_2165"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Prod_Color_VarST Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_235"
+				},
+				"utilization": {
+					"param_name": "Prod_Color_VarST Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_257"
+				},
+				"APCUptime": {
+					"param_name": "Prod_Color_VarST_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_2166"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Blancher_Temp_Bias Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_236"
+				},
+				"utilization": {
+					"param_name": "Blancher_Temp_Bias Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_258"
+				},
+				"APCUptime": {
+					"param_name": "Blancher_Temp_Bias_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_2167"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "BatterRes1Viscosity Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_237"
+				},
+				"utilization": {
+					"param_name": "BatterRes1Viscosity Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_259"
+				},
+				"APCUptime": {
+					"param_name": "BatterRes1Viscosity_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_2168"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "BatterRes2Viscosity Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_238"
+				},
+				"utilization": {
+					"param_name": "BatterRes2Viscosity Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_260"
+				},
+				"APCUptime": {
+					"param_name": "BatterRes2Viscosity_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_2169"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Prod_Salt Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_747"
+				},
+				"utilization": {
+					"param_name": "Prod_Salt Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_1324"
+				},
+				"APCUptime": {
+					"param_name": "Prod_Salt_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_104$a_127$tag_2170"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "FryerTime Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_123$tag_357"
+				},
+				"utilization": {
+					"param_name": "FryerTime Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_123$tag_365"
+				},
+				"APCUptime": {
+					"param_name": "FryerTime_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_123$tag_2574"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "FryerTemp Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_123$tag_358"
+				},
+				"utilization": {
+					"param_name": "FryerTemp Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_123$tag_366"
+				},
+				"APCUptime": {
+					"param_name": "FryerTemp_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_123$tag_2575"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "BlancherTemp Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_123$tag_359"
+				},
+				"utilization": {
+					"param_name": "BlancherTemp Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_123$tag_367"
+				},
+				"APCUptime": {
+					"param_name": "BlancherTemp_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_123$tag_2576"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "CondRatio Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_123$tag_360"
+				},
+				"utilization": {
+					"param_name": "CondRatio Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_123$tag_368"
+				},
+				"APCUptime": {
+					"param_name": "CondRatio_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_123$tag_2577"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "DexFlow Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_123$tag_361"
+				},
+				"utilization": {
+					"param_name": "DexFlow Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_123$tag_369"
+				},
+				"APCUptime": {
+					"param_name": "DexFlow_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_123$tag_2578"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "Recovery Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_123$tag_362"
+				},
+				"utilization": {
+					"param_name": "Recovery Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_123$tag_370"
+				},
+				"APCUptime": {
+					"param_name": "Recovery_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_123$tag_2579"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "ProdSalt Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_123$tag_363"
+				},
+				"utilization": {
+					"param_name": "ProdSalt Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_123$tag_371"
+				},
+				"APCUptime": {
+					"param_name": "ProdSalt_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_123$tag_2580"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "ProdAvgAgtronColor Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_123$tag_364"
+				},
+				"utilization": {
+					"param_name": "ProdAvgAgtronColor Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_123$tag_372"
+				},
+				"APCUptime": {
+					"param_name": "ProdAvgAgtronColor_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_123$tag_2581"
+				}
+			}
+		],
+		"Retrograde": [
+			{
+				"availability": {
+					"param_name": "RetroATime Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_116$tag_292"
+				},
+				"utilization": {
+					"param_name": "RetroATime Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_116$tag_300"
+				},
+				"APCUptime": {
+					"param_name": "RetroATime_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_116$tag_2209"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "RetroBTime Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_116$tag_293"
+				},
+				"utilization": {
+					"param_name": "RetroBTime Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_116$tag_301"
+				},
+				"APCUptime": {
+					"param_name": "RetroBTime_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_116$tag_2210"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "RetroMAUFanSpeed Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_116$tag_294"
+				},
+				"utilization": {
+					"param_name": "RetroMAUFanSpeed Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_116$tag_302"
+				},
+				"APCUptime": {
+					"param_name": "RetroMAUFanSpeed_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_116$tag_2211"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "RetroMAUTemp Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_116$tag_295"
+				},
+				"utilization": {
+					"param_name": "RetroMAUTemp Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_116$tag_303"
+				},
+				"APCUptime": {
+					"param_name": "RetroMAUTemp_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_116$tag_2212"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "RetroAProdTemp Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_116$tag_296"
+				},
+				"utilization": {
+					"param_name": "RetroAProdTemp Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_116$tag_304"
+				},
+				"APCUptime": {
+					"param_name": "RetroAProdTemp_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_116$tag_2213"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "RetroBProdTemp Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_116$tag_297"
+				},
+				"utilization": {
+					"param_name": "RetroBProdTemp Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_116$tag_305"
+				},
+				"APCUptime": {
+					"param_name": "RetroBProdTemp_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_116$tag_2214"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "RetroABedHt Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_116$tag_298"
+				},
+				"utilization": {
+					"param_name": "RetroABedHt Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_116$tag_306"
+				},
+				"APCUptime": {
+					"param_name": "RetroABedHt_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_116$tag_2215"
+				}
+			},
+			{
+				"availability": {
+					"param_name": "RetroBBedHt Availability",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_116$tag_299"
+				},
+				"utilization": {
+					"param_name": "RetroBBedHt Utilization",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_116$tag_307"
+				},
+				"APCUptime": {
+					"param_name": "RetroBBedHt_APC_Uptime",
+					"tag_id": "l1_101$l2_102$l3_103$l4_105$a_116$tag_2216"
+				}
+			}
+		]
+	}
+}

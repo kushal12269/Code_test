@@ -1,0 +1,28 @@
+.mainDiv {
+    width: 290px;
+}
+
+
+.color-div {
+    display     : inline-block;
+    height      : 20px;
+    width       : 20px;
+    position    : relative;
+    top         : 2px;
+    padding-left: 6px !important;
+}
+
+.color-cell {
+    height : 25px;
+    border : 2px solid white;
+    padding: 0px !important;
+    text-align: center;
+}
+
+.custom-dropdown-toggle {
+    width: 260px !important;
+}
+
+.elm-checkmark {
+    font-size: 14px;
+}

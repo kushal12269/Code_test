@@ -1,0 +1,84 @@
+<!-- ------------------------------------------- Aggregations Blocks Starts Here ------------------------------------------------------ -->
+<ng-container>
+    <div class="col-md-12" style="padding:0px 4px 24px 4px">
+        <div>Horizontal Resampling</div>
+        <span class="actionBtn float-right" style="padding:2x 4px !important" ngClass="{'disabled': addAggrDisable}" (click)="addAggregationBlock()">
+            <span class="pl-1"><em class="elm-plus"></em></span> Block
+        </span>
+
+        <span class="float-left" *ngIf="tagList.length === 0"
+            style="font-weight: 600;color: #424f5a;font-style: italic;">
+            Note : <span style="font-weight: 100 !important;">Please select parameters to apply aggregations.</span>
+        </span>
+    </div>
+    <ng-container *ngIf="chartOptions['xaxis'].aggregations.length > 0">
+        <ng-container *ngFor="let aggregation of chartOptions['xaxis'].aggregations; let blockInd=index">
+            <div class="col-md-12 card">
+                <div class="form-group col-md-12 row pb-3 visualization-aggregations" >
+                    <span class="col-md-12 actionBtn" (click)="addAggregationAction(blockInd)">
+                        <span class="pl-1"><em class="elm-plus"></em></span> Add
+                    </span>
+                    <span class="col-md-8 parameter-selection-panel">
+                        <label class="control-label">Parameters *</label>
+                        <ng-select class="d-inline-block paramater-selection" style="width: 100%;" placeholder="Select Parameter(s)"
+                          bindValue="value" bindLabel="label" [multiple]="false" [clearable]="false"
+                          [items]="tagList" [(ngModel)]="chartOptions['xaxis'].aggregations[blockInd].parameters[0]"
+                        ></ng-select>
+                    </span>
+                    <span class="col-md-4 actionBtn float-right pt-4" (click)="deleteAggregationBlock(blockInd)">
+                        <span class="pl-1"><em class="elm-trash"></em></span>Block
+                    </span>
+                </div>
+                <div class="col-md-12">
+                    <ng-container
+                        *ngTemplateOutlet="aggregationsTemplate; context:{ blockInd: blockInd}">
+                    </ng-container>
+                </div>
+            </div>
+        </ng-container>
+    </ng-container>
+</ng-container>
+
+<!-- ------------------------------------------- Aggregations Blocks Ends Here ------------------------------------------------------ -->
+
+<!-- ------------------------------------------ Each Aggregation Block Template Starts Here -------------------------------------------- -->
+
+<ng-template #aggregationsTemplate let-blockInd="blockInd">
+    <ng-container *ngFor="let blockAggregation of chartOptions['xaxis']['aggregations'][blockInd].aggregators; let agreeInd=index">
+        <div class="row">
+            <div class="col-md-10">
+                <div class="row">
+                    <div class="form-group col-md-3">
+                        <label class="control-label">Aggregation *</label>
+                        <ng-select bindValue="value" bindLabel="label" placeholder="Aggregation Type" [clearable]="false"
+                        [items]="chartDropdownOptions['xaxis']['aggregations']" [(ngModel)]="chartOptions['xaxis'].aggregations[blockInd].aggregators[agreeInd].name">
+                        </ng-select>
+                    </div>
+                    <ng-container>
+                        <!-- <div class="form-group col-md-3">
+                            <label class="control-label">Sampling period *</label>
+                            <input type="number" class="form-control mb-2 mr-sm-2" placeholder="Sampling period"  [(ngModel)]="chartOptions['xaxis'].aggregations[blockInd].aggregators[agreeInd].sampling.value">
+                        </div>
+                        <div class="form-group col-md-3">
+                            <label class="control-label">Unit *</label>
+                            <ng-select bindValue="value" bindLabel="label" placeholder="Unit" [clearable]="false"
+                                [items]="chartDropdownOptions['aggregationOptions']['samplingUnit']" [(ngModel)]="chartOptions['xaxis'].aggregations[blockInd].aggregators[agreeInd].sampling.unit">
+                            </ng-select>
+                        </div> -->
+                        <div class="form-group col-md-3" >
+                            <label class="control-label">Align</label>
+                            <ng-select bindValue="value" bindLabel="label" placeholder="Align" [clearable]="false"
+                                [items]="chartDropdownOptions['aggregationOptions']['align']" [(ngModel)]="chartOptions['xaxis'].aggregations[blockInd].aggregators[agreeInd].align">
+                            </ng-select>
+                        </div>
+                    </ng-container>
+                </div>
+            </div>
+            <div class="col-md-2 text-center pt-4">
+                <div class="actionBtn" (click)="deleteAggregation(blockInd, agreeInd)">
+                    <span class="pl-1"><em class="elm-trash"></em></span> Delete
+                </div>
+            </div>
+        </div>
+    </ng-container>
+</ng-template>

@@ -1,0 +1,23 @@
+.actionBtn {
+    font-family: "Roboto-Medium", Arial, Helvetica, sans-serif !important;
+    font-size  : 16px;
+
+    .elm-trash {
+        font-size: 18px !important;
+    }
+}
+
+.actionBtn:hover {
+    text-decoration: underline;
+}
+
+.col-md-12.card {
+    border          : 0px;
+    background-color: #f9faff;
+    margin          : 10px 0px;
+    padding         : 10px 10px;
+}
+
+.vDataLabel {
+    font-size: 1rem !important;
+}
